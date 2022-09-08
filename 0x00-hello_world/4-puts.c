@@ -2,9 +2,7 @@
 
 /*     
  * main - Entry point
- *
- * Description: 'the program's description'
- *
+ * Description: 'This program print a  string using puts()'
  *  Return: Always 0 (Success)
  *
  */
