@@ -2,7 +2,7 @@
 /**
  * main -Entry point
  * Description - 'Prints put a string using puts'
- * Return - Always zero (success)
+ * Return - Always 0 (Success)
  */
 int main(void)
 {
