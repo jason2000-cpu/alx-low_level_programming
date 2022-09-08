@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main -Entry point
+ *
  * Description - 'Prints put a string using puts'
+ *
  * Return - Always 0 (Success)
  */
 int main(void)
