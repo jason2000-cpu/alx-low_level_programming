@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-/**
- * puts to print a string
- * the main function returns the result of the puts function 
- */
+/*The main function prints the result of the puts*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
