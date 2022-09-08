@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * Description - Prints put a string using puts
- * return - Always zero (success)
+ * Description - 'Prints put a string using puts'
+ * Return - Always zero (success)
  */
 int main(void)
 {
