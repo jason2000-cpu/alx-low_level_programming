@@ -1,2 +1,2 @@
 #!/bin/bash
-make -S $CFILE
+gcc -S $CFILE
