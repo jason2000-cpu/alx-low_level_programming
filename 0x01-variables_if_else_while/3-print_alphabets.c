@@ -3,7 +3,7 @@
 /**
  * main: Entry point
  *
- * Description: this func prints alphabets in both lower and upercase
+ * Description: prints alphabets in both lower and upercase
  *
  * Return: Always 0 (Success)
  */
