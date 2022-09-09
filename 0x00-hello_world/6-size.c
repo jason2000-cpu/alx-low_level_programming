@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <errno.h>
 /**
 * main- Entry point
 * Description: This pinrts the size of various types
