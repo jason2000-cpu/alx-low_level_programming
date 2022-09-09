@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
  * main -Entry point
- * puts: returns the string "programming is like building a multilingual puzzle"
- *
  * Description - 'Prints put a string using puts'
  *
  * Return - Always 0 (Success)
