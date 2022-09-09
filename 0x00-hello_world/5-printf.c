@@ -3,7 +3,7 @@
 /**
  * main - Entry pint
  * 
- * Description: 'Print  a string with printf()'
+ * Description:'Print  a string with printf()'
  *
  * Return: Always 0 (Success)
  */
