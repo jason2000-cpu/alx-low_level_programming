@@ -4,8 +4,7 @@
 #include <stdio.h>
 /**
 * main- Entry point
-* Description: Print wherether a number is positive or negative 
-*
+* Description: Print wherether a number is positive or negative *
 * Return: Always 0 (Success)
 */
 int main(void)
