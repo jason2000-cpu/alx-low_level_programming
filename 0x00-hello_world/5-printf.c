@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry pint
-* 
+* main - Entry point
 * Description:'Print  a string with printf()'
 *
 * Return: Always 0 (Success)
