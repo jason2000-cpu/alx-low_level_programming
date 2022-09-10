@@ -14,8 +14,9 @@ int main(void)
 
 	for (i = 0; i <= 8; i++)
 	{
-		putchar(i, + '0');
+		printf("%d,",i);
 	}
-	putchar('\n');
+	printf("%d", 9);
+	printf("\n");
 	return (0);
 }
