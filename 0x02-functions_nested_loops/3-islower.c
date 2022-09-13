@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-int islower(int c)
+int _islower(int c)
 {
 	char a;
 
