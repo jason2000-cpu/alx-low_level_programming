@@ -21,4 +21,5 @@ int islower(int c)
 			return 0;
 		}
 	}
+	rerurn (0);
 }
