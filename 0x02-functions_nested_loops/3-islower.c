@@ -15,10 +15,10 @@ int islower(int c)
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		if (putchar(a) == c){
-			return 1;
+			return (1);
 		} else 
 		{
-			return 0;
+			return (0);
 		}
 	}
 	rerurn (0);
