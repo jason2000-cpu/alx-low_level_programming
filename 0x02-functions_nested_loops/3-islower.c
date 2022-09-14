@@ -6,6 +6,8 @@
  *
  * Description: This func prints alphabets in lowercase
  *
+ *@c: parameter to check
+
  * Return: Always 0 (Success)
  */
 
