@@ -22,4 +22,11 @@ void print_alphabet_x10(void);
  */
 int _islower(int c);
 
+/**
+ * _isalpha - Print if argument is alphabet
+ * @c: argument to check
+ * Return: Either 1 or 0
+ */
+int _isalpha(int c);
+
 #endif
