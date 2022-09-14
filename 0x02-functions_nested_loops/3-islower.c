@@ -14,8 +14,8 @@ int test_islower(int c)
 	int res;
 
 	res = test_islower(c);
-	_putchar(res + '0');
-	_putchar('\n');
+	putchar(res + '0');
+	putchar('\n');
 	return (0);
 }
 
