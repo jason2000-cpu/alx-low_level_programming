@@ -59,4 +59,10 @@ void jack_bauer(void);
  * times_table- prints a multiplication table
  */
 void times_table(void);
+/**
+ * add - Adds two numbers and returns result
+ *
+ */
+int add(int, int);
+
 #endif
