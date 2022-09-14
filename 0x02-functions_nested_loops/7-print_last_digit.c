@@ -4,7 +4,7 @@
 /**
 * print_last_digit- Entry point
 * Description: Print the last digit of a number
-*
+* @n: number to check last digit
 * Return: Always 0 (Success)
 */
 int print_last_digit(int n)
