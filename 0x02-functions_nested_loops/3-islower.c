@@ -16,7 +16,7 @@ int test_islower(int c)
 	res = test_islower(c);
 	putchar(res + '0');
 	putchar('\n');
-}
+};
 
 /**
  * main -Entry point
