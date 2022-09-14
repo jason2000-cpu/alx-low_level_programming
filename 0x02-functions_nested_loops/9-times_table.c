@@ -34,6 +34,6 @@ void times_table(void)
 				_putchar(mul % 10 + '0');
 			}
 		}
-		_puthcar('\n');
+		_putchar('\n');
 	}
 }
