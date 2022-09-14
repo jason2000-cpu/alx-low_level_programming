@@ -65,4 +65,10 @@ void times_table(void);
  */
 int add(int, int);
 
+/**
+ * print_to_98- print numbers to nth value
+ *
+ */
+void print_to_98(int n);
+
 #endif
