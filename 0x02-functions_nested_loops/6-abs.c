@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign -Entry Point
+ * _abs -Entry Point
  *
  * Description: This func prints the sign of a param
  *
@@ -15,11 +15,9 @@ int _abs(int n)
 {
 	if( n < 0)
 	{
-		n = (n*2) + n;
-		putchar(n + '0');
-	} else 
-	{
+		n = n * -1;
 		putchar(n + '0');
 	}
+	putchar(n + '0');
 	return (0);
 }
