@@ -7,8 +7,14 @@
  *
  * Return: Always 0 (Success)
  */
+int main(void)
+{
+	char c;
+	int res;
 
-int print_alphabet_x10(void)
+	res = print_alphabet_x10(c);
+
+void print_alphabet_x10(void)
 {
 	char a;
 	int  i;
