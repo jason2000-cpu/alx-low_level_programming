@@ -8,26 +8,24 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+
+void _islower(int c)
 {
-	int r = _islower('H');
-	
-	putchar(r + '0');
-	return (0);
+	int res;
+
+	res = _islower(c);
+	_putchar(res + '0');
+	_putchar('\n');
 }
 
-int _islower(int c)
+/**
+ * main -Entry point
+ * Description: The function calls the _islower function
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	char a;
-
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		if (putchar(a) == c){
-			return (1);
-		} else 
-		{
-			return (0);
-		}
-	}
+	_islower('H');
 	return (0);
 }
