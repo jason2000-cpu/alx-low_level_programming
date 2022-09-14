@@ -2,13 +2,11 @@
 #include "main.h"
 
 /**
- * print_sign -Entry Point
+ * jack_bauer -Entry Point
  *
- * Description: This func prints the sign of a param
+ * Description: This func prints time
  *
- * @n: parameter to check
- *
- * Return: either 1, 0 or -1
+ * Return: Always 0 (success)
  */
 
 void jack_bauer(void)
@@ -18,7 +16,7 @@ void jack_bauer(void)
 
 	for (i = 0; i <= 23; i++)
 	{
-		for(j = 0; j <= 59; j++)
+		for (j = 0; j <= 59; j++)
 		{
 			_putchar(i / 10 + '0');
 			_putchar(i % 10 + '0');
