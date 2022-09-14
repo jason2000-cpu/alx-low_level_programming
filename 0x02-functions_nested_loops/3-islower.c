@@ -9,13 +9,13 @@
  * Return: Always 0 (Success)
  */
 
-void _islower(int c)
+void test_islower(int c)
 {
 	int res;
 
-	res = _islower(c);
-	_putchar(res + '0');
-	_putchar('\n');
+	res = islower(c);
+	putchar(res + '0');
+	putchar('\n');
 }
 
 /**
@@ -26,6 +26,6 @@ void _islower(int c)
  */
 int main(void)
 {
-	_islower('H');
+	test_islower('H');
 	return (0);
 }
