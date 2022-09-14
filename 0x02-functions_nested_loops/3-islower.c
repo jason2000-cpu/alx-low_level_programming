@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-void test_islower(int c)
+int test_islower(int c)
 {
 	int res;
 
