@@ -14,9 +14,10 @@ int test_islower(int c)
 	int res;
 
 	res = test_islower(c);
-	putchar(res + '0');
-	putchar('\n');
-};
+	_putchar(res + '0');
+	_putchar('\n');
+	return (0);
+}
 
 /**
  * main -Entry point
