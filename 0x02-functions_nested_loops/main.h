@@ -29,4 +29,12 @@ int _islower(int c);
  */
 int _isalpha(int c);
 
+/**
+ * print_sign - Print s the sign of a character
+ *
+ * @n: character to check
+ * Return:  either 1, 0 or -1
+ */
+int print_sign(int n);
+
 #endif
