@@ -21,3 +21,5 @@ void print_alphabet_x10(void);
  * Return: either 1 or 0
  */
 int _islower(int c);
+
+#endif
