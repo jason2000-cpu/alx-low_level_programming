@@ -15,7 +15,8 @@ int print_sign(int n)
 {
 	if( n < 0)
 	{
-		putchar((n +(n*2)) + '0');
+		n = (n*2) + n;
+		putchar(n + '0');
 	} else 
 	{
 		putchar(n + '0');
