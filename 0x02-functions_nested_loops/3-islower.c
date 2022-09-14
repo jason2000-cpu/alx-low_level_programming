@@ -9,24 +9,11 @@
  * Return: Always 0 (Success)
  */
 
-int test_islower(int c)
+int _islower(int c)
 {
-	int res;
-
-	res = test_islower(c);
-	putchar(res + '0');
-	putchar('\n');
-	return (0);
-}
-
-/**
- * main -Entry point
- * Description: The function calls the _islower function
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	test_islower('H');
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
 	return (0);
 }
