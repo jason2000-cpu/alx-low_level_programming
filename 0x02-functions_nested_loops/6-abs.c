@@ -17,6 +17,6 @@ int print_sign(int n)
 	{
 		putchar((n +(n*2)) + '0');
 	}
-	putchar(n + '0')
+	putchar(n + '0');
 	return (0);
 }
