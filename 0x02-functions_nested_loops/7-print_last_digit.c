@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
+#include "6-abs.c"
 /**
 * print_last_digit- Entry point
 * Description: Print the last digit of a number
@@ -9,9 +9,6 @@
 */
 int print_last_digit(int n)
 {
-	int last_digit;
-
-	last_digit = n % 10;
-	putchar(last_digit + '0');
-	return (last_digit);
+	_putchar('0' + _abs(n % 10));
+	return (_abs(n % 10));
 }
