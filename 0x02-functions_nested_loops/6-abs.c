@@ -11,7 +11,7 @@
  * Return: either 1, 0 or -1
  */
 
-int print_sign(int n)
+int _abs(int n)
 {
 	if( n < 0)
 	{
