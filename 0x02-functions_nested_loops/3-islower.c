@@ -13,7 +13,7 @@ void test_islower(int c)
 {
 	int res;
 
-	res = _islower(c);
+	res = test_islower(c);
 	putchar(res + '0');
 	putchar('\n');
 }
