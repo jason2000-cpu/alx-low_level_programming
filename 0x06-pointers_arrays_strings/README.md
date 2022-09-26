@@ -1,1 +1,1 @@
-# Learning Pointers, arrays and strings in C
+Strings with pointers and arrays are powerful tools.

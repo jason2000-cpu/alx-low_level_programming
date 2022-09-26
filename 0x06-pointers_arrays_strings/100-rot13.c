@@ -1,29 +1,30 @@
-
 #include "main.h"
 
 /**
- * *rot13 - encodes a string using rot13.
- * @s: int type array pointer
- * Return: encoded
+ * rot13 - encrypts code
+ * @s: string to encrypt
+ * Return: char value
  */
 
 char *rot13(char *s)
 {
-int i, ii;
-char input[] =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char part1[52] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char part2[52] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 
-for (i = 0; s[i] != '\0'; i++)
-{
-	for (ii = 0; ii < 54; ii++)
+	int i;
+	int j = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A'))
-		&& s[i] == input[ii])
+
+		for (j = 0; part1[j] != '\0'; j++)
 		{
-			s[i] = output[ii];
-			break;
+			if (s[i] == part1[j])
+			{
+				s[i] = part2[j];
+				break;
+			}
 		}
 	}
-}
-return (s);
+	return (s);
 }
