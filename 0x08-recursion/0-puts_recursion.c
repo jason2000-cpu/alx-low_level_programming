@@ -9,5 +9,5 @@
 
 void _puts_recursion(char *s)
 {
-	printf("%c\n", s);
+	putchar(s);
 }
