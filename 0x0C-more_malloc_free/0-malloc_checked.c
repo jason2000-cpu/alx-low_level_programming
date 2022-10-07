@@ -1,19 +1,18 @@
 #include <stdlib.h>
 
 /*
- * malloc_checked- Entry level
+ * malloc_checked- entry level
  *
  * @b: interger value to allocate memory
  *
- * Return: Returns pointer to allocated memory
+ * Return: returns pointer to allocated memory
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *p = malloc(b);
+	void *s = malloc(b);
 
-	if (p == NULL)
+	if (s == NULL)
 		exit(98);
-
-	return (p);
+	return (s);
 }
