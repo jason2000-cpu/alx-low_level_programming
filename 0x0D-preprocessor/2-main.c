@@ -4,7 +4,7 @@
 /*
  * main- Entry Level
  *
- * description: this program prints the name of the file it was compiled from
+ * description: this program prints its file name
  * Return : returns 0 (Always success)
  */
 
