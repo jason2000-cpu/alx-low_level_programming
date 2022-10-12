@@ -1,1 +1,1 @@
-More malloc and free functions
+This project focus on memory allocations.
