@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-/*
- * main- Entry Level
+/**
+ * main - check the code for Holberton School students.
  *
- * Return : returns 0 (Always success)
+ * Return: success.
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
-	return (0);
+printf("%s\n", __FILE__);
+return (0);
 }
