@@ -10,5 +10,5 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	printf("%c\n", *name);
+	printf("%c\n", name);
 }
