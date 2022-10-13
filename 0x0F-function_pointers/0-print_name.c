@@ -5,7 +5,6 @@
  * @f: the name is printed according to this function
  * Return: returns nothing
  */
-
 void print_name(char *name, void (*f)(char *))
 {
 	if (name && f)
