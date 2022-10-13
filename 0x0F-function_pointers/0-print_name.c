@@ -1,10 +1,8 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "function_pointers.h"
 /*
  * print_name - Entry Level
- *
- * Description: this function prints a name
- * 
+ * @name: name to be printed
+ * @f: the name is printed according to this function
  * Return: returns nothing
  */
 
