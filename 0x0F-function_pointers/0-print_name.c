@@ -1,9 +1,9 @@
 #include "function_pointers.h"
-/*
- * print_name - Entry Level
+/**
+ * print_name - prints a name
  * @name: name to be printed
- * @f: the name is printed according to this function
- * Return: returns nothing
+ * @f: name is printed according to this function
+ * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {

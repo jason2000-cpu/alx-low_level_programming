@@ -1,1 +1,1 @@
-Getting started with C-Function pointers
+This project mainly focus on function pointers.
