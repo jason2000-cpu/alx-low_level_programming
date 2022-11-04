@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * create_file - Creates a textfile
- * @filename: The name of the file to create
- * @text_content: The text to write to created file
+ * append_text_to_file- appends text to a file
+ * @filename: The name of the file to append to
+ * @text_content: The text to write to file
  * Return: Returns either 1 (succcess) or -1 (fail)
  */
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int i = 0, fd;
 
