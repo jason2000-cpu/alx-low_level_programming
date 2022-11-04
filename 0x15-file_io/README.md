@@ -1,1 +1,1 @@
-Opening, Reading and writing files in C
+This project mainly focused on file system.
