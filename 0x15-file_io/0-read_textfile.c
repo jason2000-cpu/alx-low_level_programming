@@ -3,8 +3,7 @@
  * read_textfile- function that reads text file and prints
  * @filename: a pointer to the filename
  * @letters: The number of letters in the filename
- * Description: This function reads a text file and prints it to the 
- * POSIX standard output
+ * Description: This function reads a text file and prints it to the POSIX standard output
  * Return: the number of letters it could read and print 0 otherwise
  *
  */
