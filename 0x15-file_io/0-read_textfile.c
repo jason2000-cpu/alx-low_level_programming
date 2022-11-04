@@ -2,7 +2,7 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <sys/type.h>
+#include <sys/types.h>
 
 /*read_textfile - Entry Level
  *
@@ -16,15 +16,15 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
+	char buf[letters+1];
 
-	filename = &filename;
+
 	fd = open(filename,  O_CREAT | O_WRONLY);
-       	read(filanme, buf, letters);
 	if (fd == -1 || filename == NULL)
 	{
 		return (0);
 	}
-	read(filename,  buf , filename);
+	read(*filename,  buf ,letters);
 
 	close(fd);
 }
