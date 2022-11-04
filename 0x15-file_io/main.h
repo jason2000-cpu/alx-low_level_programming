@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
+<<<<<<< HEAD
 
+=======
+>>>>>>> db8e878c3697afb8220fbefb977123c30ed43107
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
