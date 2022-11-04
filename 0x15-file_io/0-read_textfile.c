@@ -3,6 +3,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include "main.h"
 
 /*read_textfile - Entry Level
  *
