@@ -16,17 +16,22 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd;
-	char buf[letters+1];
+	ssize_t fd, let, w;
+	char *buf;
 
-
-	fd = open(filename,  O_CREAT | O_WRONLY);
-	if (fd == -1 || filename == NULL)
+	buf = malloc(letters);
+	if (buf == NULL || filename == NULL)
 	{
 		return (0);
 	}
-	read(*filename,  buf ,letters);
-
+	fd  =  open(filename, O_RDONLY);
+	if (fd == -1)
+	{
+		free(buf);
+		return(0);
+	}
+	let = read(fd, buf, letters);
+	w = write(STDOUT_FILENO, buf, let);
 	close(fd);
+	return(w);
 }
-
