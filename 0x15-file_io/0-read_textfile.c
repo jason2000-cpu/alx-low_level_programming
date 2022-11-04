@@ -1,17 +1,13 @@
 #include <stdio.h>
-#include <fcntl.h>
-#include <sys/stat.h>
-#include <unistd.h>
-#include <sys/types.h>
+#include <stdlib.h>
 #include "main.h"
 
-/*read_textfile - Entry Level
- *
+/*read_textfile- function that reads text file and prints
  * @filename: a pointer to the filename
- *
  * @letters: The number of letters in the filename
- *
- * Return: success
+ * Description: This function reads a text file and prints it to the 
+ * POSIX standard output
+ * Return: the number of letters it could read and print 0 otherwise
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
