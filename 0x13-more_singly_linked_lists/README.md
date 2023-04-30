@@ -114,3 +114,24 @@ Write a function that prints a listint_t linked list.
 - Output format: see example
 
 File: 101-print_listint_safe.c
+
+### Task 13
+
+Write a function that frees a listint_t list.
+- Prototype: size_t free_listint_safe(listint_t **h);
+- This function can free lists with a loop
+- You should go though the list only once
+- Returns: the size of the list that was free’d
+- The function sets the head to NULL
+
+File: 102-free_listint_safe.c
+
+### Task 14
+
+Write a function that finds the loop in a linked list.
+- Prototype: listint_t *find_listint_loop(listint_t *head);
+- Returns: The address of the node where the loop starts, or NULL if there is no loop
+- You are not allowed to use malloc, free or arrays
+- You can only declare a maximum of two variables in your function
+
+File: 103-find_loop.c
